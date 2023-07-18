@@ -1,0 +1,56 @@
+
+<h2>Encoder: <small>Base64</small></h2>
+<hr>
+<div class="row">
+  <div class="col">
+    <form (ngSubmit)="encodeText()" [formGroup]="myForm">
+
+      <div class="mb-3 row">
+        <label class="col-sm-3 col-form-label">Text To Encode:</label>
+        <div class="col-sm-9">
+          <input type="text"
+                 class="form-control"
+                 placeholder="Text to encode"
+                 formControlName="textToEncode">
+
+          <span class="form-text text-danger"
+                *ngIf="validField('textToEncode')">
+            Required Field
+          </span>
+        </div>
+      </div>
+
+      <div class="mb-3 row">
+
+        <div class="col">
+          <button type="submit"
+                  class="btn btn-primary float-end"
+                  [disabled]="disableConvert()">
+            Convert
+          </button>
+        </div>
+      </div>
+      
+
+
+    </form>
+    <div class="mb-3 row">
+
+      <label class="col-sm-3 col-form-label">Encoded Text:</label>
+      <div class="col-sm-9">
+        
+        <input type="text" class="form-control"
+               readonly value="{{streamedResults.join('')}}">
+      </div>
+
+    </div>
+    <div class="col">
+      <button type="button" (click)="stopStream()"
+              class="btn btn-danger float-end"
+              [disabled]="!disableConvert()">
+        Cancel
+      </button>
+    </div>
+  </div>
+
+</div>

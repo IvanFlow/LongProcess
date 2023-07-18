@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongRuning", "LongRuning\LongRuning.csproj", "{A3938CDE-4CF0-4D60-B81D-A0DB5EB00936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongRuning.Tests", "LongRuning.Tests\LongRuning.Tests.csproj", "{DE6418E2-9ABA-49EE-9D62-41862CBB4243}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{328A4629-F017-4249-9811-F95392A4A077}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3938CDE-4CF0-4D60-B81D-A0DB5EB00936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3938CDE-4CF0-4D60-B81D-A0DB5EB00936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3938CDE-4CF0-4D60-B81D-A0DB5EB00936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3938CDE-4CF0-4D60-B81D-A0DB5EB00936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6418E2-9ABA-49EE-9D62-41862CBB4243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6418E2-9ABA-49EE-9D62-41862CBB4243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6418E2-9ABA-49EE-9D62-41862CBB4243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6418E2-9ABA-49EE-9D62-41862CBB4243}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A60B95D3-1C30-40D0-9876-6A661FECB813}
+	EndGlobalSection
+EndGlobal
