@@ -2,15 +2,22 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+EXPOSE 9999
 
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+
+
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-with-spa
+RUN bash -E $(curl -fsSL https://deb.nodesource.com/setup_18.x | bash - ); apt install -y nodejs
+
+FROM build-with-spa AS build
 WORKDIR /src
-COPY ["LongRuning/LongRuning.csproj", "LongRuning/"]
+COPY ["LongRuning.csproj", "LongRuning/"]
 RUN dotnet restore "LongRuning/LongRuning.csproj"
-COPY . .
+
 WORKDIR "/src/LongRuning"
+COPY . .
+
 RUN dotnet build "LongRuning.csproj" -c Release -o /app/build
 
 FROM build AS publish
