@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9CciGwjZHQkowgmS5wHyxAfSHu6gP2fPtNqGxXsyxYDPIXr8nAKdR9J4ILEvOC6NflXNcORayATAgJsLDTEyrw==",
+  "dgSpecHash": "i8AcxB+KnZQ8peHM7tai9Xs4+IZnr8sHBV+tOqDjTRAxNjRnfZi9mnpRyLLA3lWx7ASLT9gCNfnGLHgu97Ni+w==",
   "success": true,
   "projectFilePath": "C:\\repos\\LongRuning\\LongRuning.Tests\\LongRuning.Tests.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\IvanF\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "C:\\Users\\IvanF\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.3.2\\microsoft.testplatform.objectmodel.17.3.2.nupkg.sha512",
     "C:\\Users\\IvanF\\.nuget\\packages\\microsoft.testplatform.testhost\\17.3.2\\microsoft.testplatform.testhost.17.3.2.nupkg.sha512",
+    "C:\\Users\\IvanF\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\IvanF\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\IvanF\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\IvanF\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
