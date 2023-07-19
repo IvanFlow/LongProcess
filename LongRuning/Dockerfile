@@ -3,9 +3,7 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 9999
-
-
-
+ENV ASPNETCORE_URLS=http://*:9999
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-with-spa
 RUN bash -E $(curl -fsSL https://deb.nodesource.com/setup_18.x | bash - ); apt install -y nodejs
