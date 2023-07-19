@@ -8,6 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongRuning.Tests", "LongRuning.Tests\LongRuning.Tests.csproj", "{DE6418E2-9ABA-49EE-9D62-41862CBB4243}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{328A4629-F017-4249-9811-F95392A4A077}"
+	ProjectSection(SolutionItems) = preProject
+		README Docker.txt = README Docker.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
